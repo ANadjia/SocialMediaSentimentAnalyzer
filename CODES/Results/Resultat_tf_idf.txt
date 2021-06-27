@@ -1,0 +1,129 @@
+
+ Le model : KNeighborsClassifier(n_neighbors=9)
+Confusion Matrix : 
+[[5221 1012]
+ [2622 3611]]
+Classification Report : 
+              precision    recall  f1-score   support
+
+           0       0.67      0.84      0.74      6233
+           1       0.78      0.58      0.67      6233
+
+    accuracy                           0.71     12466
+   macro avg       0.72      0.71      0.70     12466
+weighted avg       0.72      0.71      0.70     12466
+
+Accuracy score : 
+0.7084870848708487
+Recall Score : 
+0.5793357933579336
+F1-score : 
+0.6652542372881356
+
+ Le model : SVC(C=2)
+Confusion Matrix : 
+[[5586  647]
+ [1083 5150]]
+Classification Report : 
+              precision    recall  f1-score   support
+
+           0       0.84      0.90      0.87      6233
+           1       0.89      0.83      0.86      6233
+
+    accuracy                           0.86     12466
+   macro avg       0.86      0.86      0.86     12466
+weighted avg       0.86      0.86      0.86     12466
+
+Accuracy score : 
+0.861222525268731
+Recall Score : 
+0.8262473929087117
+F1-score : 
+0.8561928512053201
+
+ Le model : DecisionTreeClassifier(criterion='entropy', max_features='sqrt',
+                       max_leaf_nodes=500, random_state=42)
+Confusion Matrix : 
+[[5027 1206]
+ [2306 3927]]
+Classification Report : 
+              precision    recall  f1-score   support
+
+           0       0.69      0.81      0.74      6233
+           1       0.77      0.63      0.69      6233
+
+    accuracy                           0.72     12466
+   macro avg       0.73      0.72      0.72     12466
+weighted avg       0.73      0.72      0.72     12466
+
+Accuracy score : 
+0.7182737044761752
+Recall Score : 
+0.6300336916412642
+F1-score : 
+0.6910082702797818
+
+ Le model : RandomForestClassifier(bootstrap='False', criterion='entropy',
+                       max_features='log2', min_samples_split=10,
+                       n_estimators=150)
+Confusion Matrix : 
+[[5250  983]
+ [1202 5031]]
+Classification Report : 
+              precision    recall  f1-score   support
+
+           0       0.81      0.84      0.83      6233
+           1       0.84      0.81      0.82      6233
+
+    accuracy                           0.82     12466
+   macro avg       0.83      0.82      0.82     12466
+weighted avg       0.83      0.82      0.82     12466
+
+Accuracy score : 
+0.8247232472324724
+Recall Score : 
+0.8071554628589764
+F1-score : 
+0.8215889605617702
+
+ Le model : MultinomialNB(fit_prior='True')
+Confusion Matrix : 
+[[4978 1255]
+ [1078 5155]]
+Classification Report : 
+              precision    recall  f1-score   support
+
+           0       0.82      0.80      0.81      6233
+           1       0.80      0.83      0.82      6233
+
+    accuracy                           0.81     12466
+   macro avg       0.81      0.81      0.81     12466
+weighted avg       0.81      0.81      0.81     12466
+
+Accuracy score : 
+0.8128509545965025
+Recall Score : 
+0.8270495748435746
+F1-score : 
+0.8154710116269873
+
+ Le model : BernoulliNB(binarize=0.1, fit_prior='True')
+Confusion Matrix : 
+[[5494  739]
+ [2034 4199]]
+Classification Report : 
+              precision    recall  f1-score   support
+
+           0       0.73      0.88      0.80      6233
+           1       0.85      0.67      0.75      6233
+
+    accuracy                           0.78     12466
+   macro avg       0.79      0.78      0.78     12466
+weighted avg       0.79      0.78      0.78     12466
+
+Accuracy score : 
+0.7775549494625381
+Recall Score : 
+0.673672388897802
+F1-score : 
+0.7517679706382598

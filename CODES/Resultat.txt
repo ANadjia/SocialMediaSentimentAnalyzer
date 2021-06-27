@@ -1,0 +1,21 @@
+
+ Le model : KNeighborsClassifier(n_neighbors=9)
+ Confusion Matrix : 
+[[4379 1854]
+ [1061 5172]]
+ Classification Report : 
+              precision    recall  f1-score   support
+
+           0       0.80      0.70      0.75      6233
+           1       0.74      0.83      0.78      6233
+
+    accuracy                           0.77     12466
+   macro avg       0.77      0.77      0.77     12466
+weighted avg       0.77      0.77      0.77     12466
+
+Accuracy score : 
+0.7661639659874859
+Recall Score : 
+0.8297769934221081
+ F1-score : 
+0.7801493325288484

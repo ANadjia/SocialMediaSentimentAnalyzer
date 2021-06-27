@@ -1,0 +1,84 @@
+
+ Le model : Train the LSTM using : FastText_SG
+Confusion Matrix : 
+[[5402  831]
+ [ 965 5268]]
+Classification Report : 
+              precision    recall  f1-score   support
+
+           0       0.85      0.87      0.86      6233
+           1       0.86      0.85      0.85      6233
+
+    accuracy                           0.86     12466
+   macro avg       0.86      0.86      0.86     12466
+weighted avg       0.86      0.86      0.86     12466
+
+Accuracy score : 
+0.8559281244986363
+Recall Score : 
+0.8451788865714744
+F1-score : 
+0.8543626337982485
+
+ Le model : Train the LSTM using : FastText_CBOW
+Confusion Matrix : 
+[[5165 1068]
+ [1220 5013]]
+Classification Report : 
+              precision    recall  f1-score   support
+
+           0       0.81      0.83      0.82      6233
+           1       0.82      0.80      0.81      6233
+
+    accuracy                           0.82     12466
+   macro avg       0.82      0.82      0.82     12466
+weighted avg       0.82      0.82      0.82     12466
+
+Accuracy score : 
+0.8164607733033852
+Recall Score : 
+0.8042676078934703
+F1-score : 
+0.8141952249472144
+
+ Le model : Train the LSTM using : Word2vec_SG
+Confusion Matrix : 
+[[5661  572]
+ [1430 4803]]
+Classification Report : 
+              precision    recall  f1-score   support
+
+           0       0.80      0.91      0.85      6233
+           1       0.89      0.77      0.83      6233
+
+    accuracy                           0.84     12466
+   macro avg       0.85      0.84      0.84     12466
+weighted avg       0.85      0.84      0.84     12466
+
+Accuracy score : 
+0.839403176640462
+Recall Score : 
+0.7705759666292316
+F1-score : 
+0.8275327360441075
+
+ Le model : Train the LSTM using : Word2vec_CBOW
+Confusion Matrix : 
+[[5315  918]
+ [1264 4969]]
+Classification Report : 
+              precision    recall  f1-score   support
+
+           0       0.81      0.85      0.83      6233
+           1       0.84      0.80      0.82      6233
+
+    accuracy                           0.82     12466
+   macro avg       0.83      0.82      0.82     12466
+weighted avg       0.83      0.82      0.82     12466
+
+Accuracy score : 
+0.8249639018129312
+Recall Score : 
+0.7972084068666774
+F1-score : 
+0.81996699669967
