@@ -1,0 +1,2 @@
+# SocialMediaSentimentAnalyzer
+Analyser les sentiments 
